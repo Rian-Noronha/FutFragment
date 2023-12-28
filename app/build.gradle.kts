@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.rn.futfragment"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         applicationId = "com.rn.futfragment"
@@ -26,6 +26,13 @@ android {
             )
         }
     }
+
+
+
+    buildFeatures{
+        viewBinding = true
+    }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
         targetCompatibility = JavaVersion.VERSION_1_8

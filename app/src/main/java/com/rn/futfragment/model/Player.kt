@@ -3,7 +3,7 @@ package com.rn.futfragment.model
 data class Player(
     var id:Long = 0,
     var name:String = "",
-    var scoredGols:Int = 0,
+    var scoredGoals:Int = 0,
     var givenAssistence:Int = 0,
     var numberShirt:Int = 0,
     var nacionality:String = "",
