@@ -5,7 +5,6 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.rn.futfragment.R
-import com.rn.futfragment.databinding.ActivityPlayerDetailsBinding
 
 class PlayerDetailsActivity : AppCompatActivity() {
     private val playerId:Long by lazy { intent.getLongExtra(EXTRA_PLAYER_ID, -1) }

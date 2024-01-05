@@ -41,5 +41,13 @@ class PlayerListFragment : ListFragment(), PlayerListView{
         fun onPlayerClick(player:Player)
     }
 
+    fun search(text:String){
+        presenter.searchPlayers(text)
+    }
+
+    fun clearSearch(){
+        presenter.searchPlayers("")
+    }
+
 
 }
